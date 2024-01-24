@@ -5,7 +5,7 @@ import streamlit as st
 
 summarizer = pipeline("summarization", model="Falconsai/text_summarization")
 API_URL = "https://api-inference.huggingface.co/models/atharvamundada99/bert-large-question-answering-finetuned-legal"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer {insert hf token}"}
 
 def query(payload):
 	response = requests.post(API_URL, headers=headers, json=payload)
