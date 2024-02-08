@@ -2,3 +2,4 @@ transformers
 PyMuPDF
 requests
 streamlit
+tensorflow
