@@ -2,3 +2,4 @@ transformers
 fitz
 requests
 streamlit
+frontend
