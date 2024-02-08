@@ -1,5 +1,4 @@
 transformers
-fitz
+PyMuPDF
 requests
 streamlit
-frontend
